@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>JS MVC</title>
+		<script
+			src="https://code.jquery.com/jquery-2.2.4.min.js"
+			integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<div class="js-container">
+			<input type="text" class="js-task-textbox" />
+			<input type="button" class="js-add-task-button" value="Add Task" />
+
+			<div class="js-tasks-container"></div>
+		</div>
+		<!-- end js-container -->
+
+		<script src="EventDispatcher.js"></script>
+		<script src="TaskModel.js"></script>
+		<script src="TaskView.js"></script>
+		<script src="TaskController.js"></script>
+		<script src="App.js"></script>
+	</body>
+</html>
